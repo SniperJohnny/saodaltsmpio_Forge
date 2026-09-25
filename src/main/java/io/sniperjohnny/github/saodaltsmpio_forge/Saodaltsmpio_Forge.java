@@ -1,6 +1,8 @@
 package io.sniperjohnny.github.saodaltsmpio_forge;
 
 import com.mojang.logging.LogUtils;
+import io.sniperjohnny.github.saodaltsmpio_forge.moditems.ModRecipteItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -29,6 +31,8 @@ public class Saodaltsmpio_Forge
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+        ModRecipteItems.register(modEventBus);
+
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -47,7 +51,9 @@ public class Saodaltsmpio_Forge
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModRecipteItems.CRYSTALLIE_ORE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

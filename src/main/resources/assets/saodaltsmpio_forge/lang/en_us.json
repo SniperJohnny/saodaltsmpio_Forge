@@ -1,0 +1,34 @@
+{
+
+  "item.saodaltsmpio_forge.crystallite_ore": "Crystallite Ore",
+  "item.saodaltsmpio_forge.metall_scrap": "Metall Scrap",
+  "item.saodaltsmpio_forge.metall": "Metall",
+  "item.saodaltsmpio_forge.reinforced_leather_stick": "Reinforced Leather Stick",
+  "item.saodaltsmpio_forge.rabbit_ragout": "Rabbit Ragout",
+  "item.saodaltsmpio_forge.dark_repulsor": "Dark Repulsor",
+  "item.saodaltsmpio_forge.elucidator": "Elucidator",
+  "item.saodaltsmpio_forge.liberator": "Liberator",
+  "item.saodaltsmpio_forge.liberator_sword": "Liberator Sword",
+  "item.saodaltsmpio_forge.lambent_light": "Lambent Light",
+  "item.saodaltsmpio_forge.blackwyrm_coat": "Blackwyrm Coat",
+
+  "item.saodaltsmpio_forge.liberator.lore.summon": "Right Shift summons the blade to your main hand",
+  "item.saodaltsmpio_forge.liberator.lore.rule": "Losing the shield destroys the blade",
+  "item.saodaltsmpio_forge.liberator_sword.lore.dismiss": "Right Shift dismisses the blade again",
+  "item.saodaltsmpio_forge.liberator_sword.lore.soulbound": "Soulbound: it cannot be dropped or stored",
+  "item.saodaltsmpio_forge.crystallite_pickaxe": "Crystallite Pickaxe",
+  "item.saodaltsmpio_forge.crystallite_axe": "Crystallite Axe",
+  "item.saodaltsmpio_forge.crystallite_shovel": "Crystallite Shovel",
+
+
+  "block.saodaltsmpio_forge.crystallite_block": "Crystallite Block",
+
+
+  "effect.saodaltsmpio_forge.rabbit_ragout": "Fullfilled",
+
+  "itemgroup.saodaltsmpio_forge_recipe_item_group": " SAO Recipe Ingredients",
+  "itemgroup.saodaltsmpio_forge_food_item_group": "SAO Food",
+  "itemgroup.saodaltsmpio_forge_tool_item_group": "SAO Tools",
+  "itemgroup.saodaltsmpio_forge_weapon_item_group": "SAO Weapons"
+
+}
