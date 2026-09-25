@@ -52,7 +52,11 @@ public class Saodaltsmpio_Forge
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModRecipteItems.CRYSTALLIE_ORE);
+            event.accept(ModRecipteItems.CRYSTALLITE_ORE);
+            event.accept(ModRecipteItems.CRYSTALLITE_INGOT);
+            event.accept(ModRecipteItems.METALL);
+            event.accept(ModRecipteItems.METALL_SCRAP);
+            event.accept(ModRecipteItems.REINFORCED_LEATHER_STICK);
         }
     }
 
