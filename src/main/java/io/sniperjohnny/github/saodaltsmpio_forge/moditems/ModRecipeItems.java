@@ -7,7 +7,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-public class ModRecipteItems {
+public class ModRecipeItems {
 
     public static final DeferredRegister<Item> RECIPE_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Saodaltsmpio_Forge.MOD_ID);
 

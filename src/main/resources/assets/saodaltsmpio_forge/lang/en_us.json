@@ -22,12 +22,12 @@
   "item.saodaltsmpio_forge.crystallite_shovel": "Crystallite Shovel",
 
 
-  "block.saodaltsmpio_forge.crystallite_block": "Crystallite Block",
+  "block.saodaltsmpio_forge.crystallite_block": "Block of Crystallite",
 
 
   "effect.saodaltsmpio_forge.rabbit_ragout": "Fullfilled",
 
-  "itemgroup.saodaltsmpio_forge_recipe_item_group": " SAO Recipe Ingredients",
+  "creativetab.sao_recipe_items_tab": " SAO Recipe Ingredients",
   "itemgroup.saodaltsmpio_forge_food_item_group": "SAO Food",
   "itemgroup.saodaltsmpio_forge_tool_item_group": "SAO Tools",
   "itemgroup.saodaltsmpio_forge_weapon_item_group": "SAO Weapons"

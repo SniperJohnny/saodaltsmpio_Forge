@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "saodaltsmpio_forge:block/crystallite_block"
+  }
+}

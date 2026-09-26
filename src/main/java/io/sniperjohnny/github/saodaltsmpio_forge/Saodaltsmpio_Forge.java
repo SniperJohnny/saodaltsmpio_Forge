@@ -1,7 +1,10 @@
 package io.sniperjohnny.github.saodaltsmpio_forge;
 
 import com.mojang.logging.LogUtils;
-import io.sniperjohnny.github.saodaltsmpio_forge.moditems.ModRecipteItems;
+import io.sniperjohnny.github.saodaltsmpio_forge.modblocks.ModOreBlocks;
+import io.sniperjohnny.github.saodaltsmpio_forge.modcreativemodetabs.ModSaoCreativeModeTabs;
+import io.sniperjohnny.github.saodaltsmpio_forge.moditems.ModBlockItems;
+import io.sniperjohnny.github.saodaltsmpio_forge.moditems.ModRecipeItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -31,7 +34,13 @@ public class Saodaltsmpio_Forge
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
-        ModRecipteItems.register(modEventBus);
+        ModRecipeItems.register(modEventBus);
+        ModBlockItems.register(modEventBus);
+
+        ModOreBlocks.register(modEventBus);
+
+
+        ModSaoCreativeModeTabs.register(modEventBus);
 
 
         // Register ourselves for server and other game events we are interested in
@@ -52,11 +61,6 @@ public class Saodaltsmpio_Forge
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModRecipteItems.CRYSTALLITE_ORE);
-            event.accept(ModRecipteItems.CRYSTALLITE_INGOT);
-            event.accept(ModRecipteItems.METALL);
-            event.accept(ModRecipteItems.METALL_SCRAP);
-            event.accept(ModRecipteItems.REINFORCED_LEATHER_STICK);
         }
     }
 
